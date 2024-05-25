@@ -11,7 +11,8 @@ const Footer: React.FC = () => {
     borderRadius: "10px",
     cursor: " pointer",
     padding: "10px 12px",
-    backgroundColor: "#F1F1F1",
+    backgroundColor: "#2563eb",
+    color: "white",
   };
   return (
     <div>
@@ -38,7 +39,7 @@ const Footer: React.FC = () => {
                   Generator enables everyone to create professional videos
                   without mics, cameras, actors or studios
                 </p>
-                <div className={"flex gap-2"}>
+                <div className={"flex gap-2 my-2"}>
                   <div style={customstyle}>
                     <FaTwitter />
                   </div>

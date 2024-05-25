@@ -23,8 +23,12 @@ export default function RootLayout({
 
 
         
-      <Navbar/><div className="lg:mt-4 mt-16">{children}</div>
-      <Footer/></body>
+      {/* <Navbar/> */}
+      {/* <div className="lg:mt-4 mt-16"> */}
+        {children}
+        {/* </div> */}
+      {/* <Footer/> */}
+      </body>
     </html>
   );
 }
